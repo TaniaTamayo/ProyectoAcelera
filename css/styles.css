@@ -1,0 +1,1467 @@
+
+body{
+    margin: 0
+}
+
+#encabezadoPrincipal
+{    
+  
+   
+    margin: 0px;
+    background-size:cover;
+    height: 110vh;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    background-color: linear-gradient(rgba (0, 0, 0, 0.5), rgba (0, 0, 0, 0.5));
+    background-image: url("../img/portada.jpg") ;
+    background-color: rgb(0 0 0 / 50%);
+}
+#fondo{
+    background-color: rgb(0 0 0 / 50%);
+    height: 110vh;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXX MENU DEL ENCABEZADO XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+#menuEncabezado
+{
+display: grid;
+grid-template-columns: 1fr auto auto auto;
+padding: 1% 1% 1% 1%;
+align-items: center;
+border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
+}
+
+#contenedorLogo
+{
+display:block
+}
+
+#imagenLogo
+{
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+#sesionRegistro
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sesionContenedor
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: fit-content;
+    margin: 0 75px;
+}
+
+#sesion
+{
+    font-family: "Brandon-Grotesque";
+    font-style: normal;
+    font-weight: 390;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-right: 15px;
+    cursor: pointer;
+ }
+
+#registro
+{
+    font-family: "Brandon-Grotesque";
+    font-style: normal;
+    font-weight: 390;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-left: 15px;
+    border-left: 1.5px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+#idioma
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#idiomaContenedor
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: fit-content;
+    margin: 0 80px;
+}
+
+#español
+{
+    font-family: "Brandon-Grotesque";
+    font-style: normal;
+    font-weight: 398;
+    color: #ffffff;
+    padding: 2px 20px 2px 20px;
+    cursor: pointer;
+ }
+
+ #ingles
+ {
+     font-family: "Brandon-Grotesque";
+     font-style: normal;
+     font-weight: 398;
+     color: #ffffff;
+     padding: 2px 20px 2px 20px;
+     cursor: pointer;
+}
+
+#menuHamburguesa
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 15px 2px 20px;
+    border-left:1px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+#imagenMenu
+{
+    width: 36px;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXX EXPLORAR O BUSCAR XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#cuerpoEncabezado1{
+display: grid;
+grid-template-rows: auto 1fr;
+padding: 2% 5%;
+height: 250px;
+justify-content:right;
+}
+
+#contenedorExplorar{
+    display: flex;
+    grid-template-rows: auto 1fr;
+    
+}
+
+#explorar
+{
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: none;
+    padding: 10px 0 10px 25px;
+    min-width: 20vw;
+    grid-column: 2/3;
+    
+}
+
+input#explorar::placeholder
+{
+background-color: transparent;
+font-style: normal;
+font-family: "Brandon-Grotesque";
+color: #ffffff;
+float: left;
+}
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXX CUERPO 2 DEL ENCABEZADO - REDES SOCIALES, REAL ESTATE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#cuerpoEncabezado2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto;
+    align-items: flex-end;
+    padding: 0 2.5%;
+    height: 50%;
+    }
+
+#redSocial
+{
+    display: grid;
+    position: fixed;
+    
+    top: 35%;
+    grid-template-columns: 1fr;
+    z-index: 9999999;
+    
+
+
+}
+
+#Follow
+{
+transform: rotate(90deg) !important;
+color: #7E7E7E;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+grid-row: 1/2;
+margin: 0 0 30px -27px;
+padding-left: 8px;
+font-family: "Brandon-Grotesque";
+}
+
+#linea
+{
+align-items: center;
+padding-left: 5px;
+}
+
+#ContenedorRealEstate
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto;
+    align-items: flex-end;
+    margin-bottom: 20%;
+    margin-top: 8%;
+    padding-left: 3%;
+    padding-top: 3%;
+    
+    
+}
+
+#Luxury
+{
+    font-family: "PFRegalDisplayPro";
+    font-style: normal;
+    font-weight: 400;
+    color: #B4B7B7;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 1px 20px 1px 13px;
+    left: 115px;
+  
+}
+#realState
+{
+   font-family: "PFRegalDisplayPro";
+   font-style: normal;
+   font-size: 50px;
+   color: #ffffff;
+   padding: 1px 10px 1px 13px;
+   width: 746px;
+   height: 79px;
+   
+}
+
+#viewPropiedades{
+    font-family: "Brandon-Grotesque";
+    font-style: normal;
+    font-weight: 390;
+    font-size: 25px;
+    line-height: 35px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    padding: 9px 33px;
+    height: fit-content;
+    width: fit-content;
+    text-decoration: none;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    cursor: pointer;
+}
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXX AQUI EMPIEZA CUERPO DE LAS GALERIAS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#cuerpoGalerias{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    padding-top: 50px;
+    margin: 0% 0;
+
+}
+
+#seccionUno{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: fit-content;
+    overflow: hidden;
+    
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXX AQUI EMPIEZA LA PRIMERA GALERIA XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#galeria1
+{
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+     direction:rtl;
+
+  
+  }
+
+.imagenesCarrusel
+{
+min-height: 375px;
+min-width: 300px;
+margin: 4px;
+background-position:center;
+display: grid;
+align-content:flex-end;
+display: grid;
+
+}
+
+.imagenesCarrusel:hover .textoImagenEng
+{
+display: inline;
+background-color: #FFFFFF;
+color: #000000;
+
+
+
+}
+
+
+.imagenesCarrusel:hover .textoImagenGla
+{
+display: inline;
+background-color: #FFFFFF;
+color: #000000;
+
+
+}
+
+
+
+#seccionImagen1
+{
+    background-color: rgba(0, 0, 0, 0.233);
+    cursor: pointer;
+    
+    
+}
+
+#seccionImagen2{
+    background-color: rgba(41, 39, 39, 0.233);
+    cursor: pointer;
+    
+}
+#seccionImagen3{
+    background-color: rgba(41, 39, 39, 0.233);
+        cursor: pointer;
+        
+}
+#seccionImagen4{
+    background-color: rgba(41, 39, 39, 0.233);
+        cursor: pointer;
+        
+}
+
+.textoImagenEng{
+    font-family: "PFRegalDisplayPro";
+    font-weight: 400;
+    font-size: 18px;
+   
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 30%);
+    display: block;
+    position: inherit;
+    color: white;
+    padding-top: 3%;
+    align-items: center;   
+    
+}
+
+span.textoImagenEng:before {
+    content: url("./img/imagenCastillo.png");
+}
+
+.textoImagenGla{
+    font-family: "PFRegalDisplayPro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 30%);
+    display: block;
+    color: white;
+    padding-bottom: 3%;
+    
+}
+#contenedorVentas{
+    margin: 0 10%;
+}
+
+
+
+#worldwideGallery1{
+    font-size: 26px;
+    font-weight: 400;
+    color: #DF991B;
+    text-align: right;
+    margin-bottom: 0%;
+    
+    
+}
+#properties1{
+    margin-bottom: 8%;
+    margin-top: 0%;
+    text-align: right;
+    font-size: 40px;
+    font-family: "PFRegalDisplayPro";
+    font-weight: 330;
+
+    
+   
+
+}
+#parrafo1{
+    margin-bottom: 90px;
+    line-height: 30PX;
+    font-size: 22px;
+    font-family: "Brandon-Grotesque";
+    font-weight: 330;
+    text-align: right;
+}
+#navegacion{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+   
+}
+#navegarPrevio{
+ 
+    font-family: "Brandon-Grotesque";
+    font-weight: 390;
+    color: #6d6e6e;
+    cursor: pointer;
+     
+}
+
+#verPropiedades{
+    padding: 5px 20px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "Brandon-Grotesque";
+    font-weight: 390;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    cursor: pointer;
+   
+}
+
+
+#navegarSiguiente{
+    
+    font-family: "Brandon-Grotesque";
+    font-weight: 390;
+    color: #6d6e6e;
+    cursor: pointer;
+     
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXX AQUI EMPIEZA LA SEGUDA GALERIA XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#seccionDos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: fit-content;
+    overflow: hidden;
+    
+}
+#galeria2
+{
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+    transition:all 0.5s;
+    direction:ltr;
+    margin-top: 10%;
+    margin-bottom:  10%;
+  
+}
+#contenedorRenta{
+    margin: 10% 10%;
+}
+
+#worldwideGallery2{
+    font-size: 26px;
+    font-weight: 400;
+    color: #DF991B;
+    text-align: left;
+    
+}
+#properties2{
+    margin-bottom: 8%;
+    margin-top: 0%;
+    text-align: left;
+    font-size: 42Px;
+    font-family: "PFRegalDisplayPro";
+    font-weight: 80;
+}
+#parrafo2{
+    margin-bottom: 90px;
+    line-height: 30PX;
+    font-size: 22Px;
+    font-family: "Brandon-Grotesque";
+    
+    text-align: left;
+}
+#navegacion2{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+   
+}
+#navegarPrevio2{
+ 
+    font-family: "Brandon-Grotesque";
+    font-weight: 390;
+    color: #6d6e6e;
+    cursor: pointer;
+     
+}
+
+#verPropiedades2{
+    padding: 5px 20px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "Brandon-Grotesque";
+    font-weight: 390;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    cursor: pointer;
+   
+}
+
+#navegarSiguiente2{
+    
+    font-family: "Brandon-Grotesque";
+    font-weight: 390;
+    color: #6d6e6e;
+    cursor: pointer;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXX AQUI EMPIEZA LA TERCERA GALERIA XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXX CUADRICULA DE OCHO IMAGENES XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#contenedorDevelopments{
+    display: grid;
+         
+}
+
+#textoLuxuryPro{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 26px;
+    font-family: "PFRegalDisplayPro";
+    font-style: normal;
+    font-weight: 400;
+    color: #DF991B;
+         
+}
+
+#textoDevelopments{
+    text-align: center;
+    margin-left: 5%;
+    font-size: 50px;
+    font-family: "PFRegalDisplayPro";
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 5%;
+         
+}
+
+#contenedorCuadricula{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 5% 0 5%;
+    column-gap: 25px;
+    row-gap: 25px;
+
+}
+
+.imagenesCuadricula{
+    height: 18vw;
+    color: -webkit-link;
+    cursor:pointer;
+    display: block;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+
+     
+}
+
+.imagenesCuadricula:hover{
+    border: 1px solid #7E7E7E;
+    transform: translateY(-1vw);
+
+}
+
+#cuadriculaImagen1{
+    height: 12vw;
+    color: -webkit-link;
+    cursor:pointer;
+    display: block;
+}
+#cuadriculaImagen2{
+    height: 12vw;
+    color: -webkit-link;
+    cursor:pointer;
+    display: block;
+}
+#cuadriculaImagen3{
+    height: 12vw;
+    color: -webkit-link;
+    cursor:pointer;
+    display: block;
+}
+
+#cuadriculaImagen4{
+    height: 12vw;
+    color: -webkit-link;
+    cursor:pointer;
+    display: block;
+}
+
+#cuadriculaImagen5{
+    height: 12vw;
+    color: -webkit-link;
+    cursor:pointer;
+    display: block;
+}
+
+#cuadriculaImagen6{
+    height: 12vw;
+    color: -webkit-link;
+    cursor:pointer;
+    display: block;
+}
+
+#cuadriculaImagen7{
+    height: 12vw;
+    color: -webkit-link;
+    cursor:pointer;
+    display: block;
+}
+
+#cuadriculaImagen8{
+    height: 12vw;
+    color: -webkit-link;
+    cursor:pointer;
+    display: block;
+}
+
+.textoImagen1{
+    display: grid;
+    background: white;
+    padding: 1vw 0 1vw 2vw;
+     color: -webkit-link;
+    cursor: pointer;
+}
+
+.texto1{
+    font-size: 17px;
+    line-height: 22px;
+    font-family: "PFRegalDisplayPro";
+    font-style: normal;
+    font-weight: 400;
+    color: #464547;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.texto2{
+
+    font-size: 23px;
+    line-height: 27px;
+    font-family: "PFRegalDisplayPro";
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXX AQUI EMPIEZA LA SECCIOn DE SERVICIOS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#contenedorServices{
+    display: grid;
+    grid-template-columns: 5% 5% 35% 5% 5% 35% 5% 5%;
+    grid-template-rows: 10% 10% 60% 10% 10%;
+    margin-top: 5%;
+    height: 45vw;
+
+}
+
+
+#fondoOscuroImg{
+    grid-row: 1/6;
+    grid-column: 2/4;
+    background-color: #26282B;
+
+}
+
+#imagenServices{
+
+    background-image: url("../img/imagenServ1.png");
+    grid-column: 3/6;
+    grid-row: 2/5;
+    overflow: hidden;
+}
+
+
+#contenedorLineaLogoUL
+{
+    grid-column: 6/9;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 8%;
+
+}
+
+#logoUL
+{
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border-right: 1.5px solid #DF991B;
+    align-self: center;
+    height: 70px;
+    width: 70px;
+
+}
+
+#logoUL img
+{
+    width: 55px;
+    height: 55px;
+}
+
+#lineaUL
+{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-bottom: 1.5px solid #DF991B;
+}
+
+#contenedorTextoServicesArtCuration
+{
+    grid-column: 6/8;
+    grid-row: 3/5;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    margin-top: 3%;
+
+}
+
+#textoServicesArtCuration
+{
+    display: grid;
+    align-content: baseline;
+    margin-left: 10%;
+}
+
+#textoServices
+{
+    font-family: "PFRegalDisplayPro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #DF991B;
+    
+}
+
+#textoArtCuration
+{
+    font-family: "PFRegalDisplayPro";
+    font-style: normal;
+    font-weight: 350;
+    color: #000000;
+    margin-bottom: 5%;
+    font-size: 40px;
+    
+}
+
+
+#textoDescripArtCuration
+{
+    font-family: "Brandon-Grotesque";
+    font-style: normal;
+    font-weight: 330;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: justify;
+    
+}
+
+#navegacion3
+{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 10%;
+    
+}
+
+#navegarPrevio3
+{
+    display: flex;
+    align-items: center;
+    font-family: "Brandon-Grotesque";
+    font-style: normal;
+    font-weight: 390;
+    font-size: 18px;
+    color: #B4B7B7;
+    justify-self: flex-start;
+}
+
+
+#contacto
+{
+    font-family: "Brandon-Grotesque";
+    font-style: normal;
+    font-weight: 390;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    padding: 5px 30px;
+    cursor: pointer;
+  
+    
+}
+
+#navegarSiguiente3
+{
+    font-family: "Brandon-Grotesque";
+    font-style: normal;
+    font-weight: 390;
+    font-size: 18px;
+    color: #B4B7B7;
+    
+}
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXX PIE DE PAGINA XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+#contenedorPie
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+    margin-top: 5%;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXX PIE DE PAGINA UNO XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+#contenedorPie1
+{
+    background: #26282B;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5%;
+    padding: 2% 5%;
+    grid-row: 1/3;
+    grid-column: 1/3;
+    z-index: 999;
+    grid-template-rows: auto 1fr;
+}
+    
+
+#textJoin
+{
+    grid-column: 1/2;
+    font-family: "PFRegalDisplayPro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #DF991B;
+    padding-top: 15px;
+}
+
+#textUnlock
+{
+    grid-column: 1/2;
+    font-family: "PFRegalDisplayPro";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 45px;
+    color: #FFFFFF;
+    align-self: start;
+}
+
+#contenedorFormularioContacto
+{
+    box-sizing: border-box;  
+    grid-column: 2/2;
+}
+#formularioContacto
+{
+    
+    display: block;
+    margin-top: 0em;
+    margin-block-end: 1em; 
+}
+
+
+#contenedorNombre
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+    align-items: baseline;
+    column-gap: 15px;
+    margin-bottom: 5%;
+   
+}
+
+
+#textoNombreForm
+{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: white;
+    font-family: "Brandon-Grotesque";
+}
+
+#contenedorInputNombre
+{
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    width: 100%;
+    position: relative;   
+}
+
+#ingresoNombre
+{
+    margin: 0;
+    padding: 12px;
+    padding-top: 0;
+    padding-bottom: 2px;
+    font-size: 16px;
+    color: white;
+    padding-left: 25px;
+    background-color: transparent !important;
+    border-radius: 100px;
+    border: 1px solid #7E7E7E;
+    width: 100%;
+    height: 55px !important;
+ 
+   
+}
+
+#contenedorCorreo
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+    align-items: baseline;
+    column-gap: 15px;
+}
+
+#textoCorreoForm
+{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: white;
+    font-family: "Brandon-Grotesque";
+   
+}
+#contenedorInputCorreo
+{
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    width: 100%;
+    position: relative;
+   
+}
+
+#ingresoCorreo
+{
+    margin: 0;
+    padding: 12px;
+    padding-top: 0;
+    padding-bottom: 2px;
+    font-size: 16px;
+    color: white;
+    padding-left: 25px;
+    background-color: transparent !important;
+    border-radius: 100px;
+    border: 1px solid #7E7E7E;
+    height: 55px !important;
+    width: 100%;
+    
+}
+
+
+#contenedorIngreso
+{
+    display: flex;
+    justify-content: end;
+    margin-top: 3%;
+    width: 100%;
+    
+}
+
+
+#textoIngreso
+{
+    background-color: unset;
+    color: #DF991B;
+    padding: 5px 30px;
+    border-radius: 100px !important;
+    letter-spacing: 3px;
+    border: 1px solid #DF991B;
+    font-size: 17px;
+    font-family: "Brandon-Grotesque";
+    font-weight: 390;
+    margin-top: 2%;
+    height: 40px;
+    
+    
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXX PIE DE PAGINA DOS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+#contenedorFondoPie2
+{
+    grid-row: 2/5;
+    grid-column: 1/3;
+    background: #000000;
+    padding: 17% 0 0 0;
+}
+
+#contenedorPie2
+{
+    display: grid;
+    row-gap: 40px;
+    grid-template-columns: auto auto;
+    margin: 1% 5%;
+}
+
+#contenedorTextoPie1
+{
+    display: flex;
+    grid-column: 1/2;
+    width: fit-content;
+    align-self: center;
+    justify-self: center;
+    align-items: flex-start !important;
+    justify-items: flex-start !important;
+    justify-content: center;
+    flex-flow: column;
+}
+.estiloPie1
+{
+    font-size: 20px;
+    font-family: "Brandon-Grotesque";
+    font-style: normal;
+    font-weight: 330;
+    line-height: 38px;
+    cursor: pointer;
+    color: #B4B7B7;
+}
+
+#contenedorTextoPie2
+{
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: fit-content;
+    align-self: center;
+    justify-self: center;
+    align-items: flex-start !important;
+    justify-items: flex-start !important;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#textoNumero
+{
+    font-family: "PFRegalDisplayPro";
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+
+
+#contenedorTextoPie3
+{
+    display: flex;
+    width: fit-content;
+    text-align: left;
+    align-self: center;
+    justify-self: center;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    flex-flow: column;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#contenedorTextoPie4
+{
+    display: flex;
+    flex-flow: column;
+    grid-column: 2/3;
+    width: fit-content;
+    align-self: center;
+    justify-self: center;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+  
+#copyRight{
+font-family: "Brandon-Grotesque";
+font-style: normal;
+font-weight: 100;
+font-size: 15px;
+line-height: 45px;
+text-align: center;
+color: #FFF;
+margin: 1% 5%;
+border-top: 1px solid white;
+padding-top: 1%;
+}
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXX ESTILOS RESPONSIVE - esto se me complico un poco pero igual o intente XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXX CABECERA HEADER XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media(max-width: 1680px)
+{
+    #contenedorExplorar{
+        font-size: 18px;
+        padding: 7px 0 7px 20px;
+     }
+    #contenedorEplorar::placeholder{
+        font-size: 18px;
+    }
+     
+    #redSocial {
+        left: 2vh;
+    }
+        #encabezadoPrincipal{
+            height: 110vh;
+        
+            }
+    #fondo{
+        height: 110vh;
+     }
+}
+
+@media(max-width: 1200px)
+{
+    
+  
+    #contenedorCuadricula{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(max-width: 980px)
+{
+    #sesionRegistro{
+        display: none !important;
+    
+        }
+
+    #encabezadoPrincipal{
+        height: 115vh;
+        
+            }
+
+        #fondo{
+            height: 115vh;
+            }
+
+    #idioma{
+        display: none !important;
+        
+         }   
+
+    #contenedorVentas{
+        margin-bottom: 7%;
+    }
+    #contenedorRenta{
+        margin-bottom: 7%;
+    }
+    #contenedorTextoServicesArtCuration{
+        margin-top: 7%;
+    }
+  
+}
+@media(max-width: 850px)
+{
+    #sesionRegistro{
+        display: none !important;
+    
+    }
+    #idioma{
+         display: none !important;
+            
+    }   
+
+    #cuerpoGalerias{
+      margin: 7% 0;
+    }
+
+    #contenedorDevelopments{
+        grid-template-columns: 1fr;
+
+    }
+}
+
+
+@media(max-width: 700px){
+
+    #sesionRegistro{
+    display: none !important;
+
+    }
+    #idioma{
+        display: none !important;
+           
+   }   
+    
+    #contenedorCuadricula{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .imagenesCuadricula{
+        height: 80vw;
+    }
+
+    #contenedorServices{
+             
+        grid-template-columns: 5% 75% 10% 5% 5%;
+        height: 110vw;
+        grid-row: 4/7;
+        grid-column: 1/3;
+    
+    }
+
+}
+
+@media(max-width: 400px)
+{
+
+    body {
+        margin: 0;
+        width: 100;
+        height: 100;
+       
+
+    }
+    
+    #contenedorLogo
+{
+display:flex;
+margin: 0%;
+}
+
+#imagenLogo
+{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+    #menuEncabezado
+{
+
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+
+}
+
+#menuHamburguesa
+{
+    display:grid;
+    align-items: center;
+    
+}
+
+
+    #encabezadoPrincipal{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    width: 100;
+    height: 100;
+
+    }
+
+    #sesionRegistro{
+        display: none !important;
+
+    }
+
+    #idioma{
+        display: none !important;
+           
+   }   
+    
+    #fondo{
+        width: 100%;
+          
+    
+        }
+
+#seccionUno{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+   
+    
+}
+
+#seccionDos{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+   
+    
+}
+
+    #cuerpoGalerias{
+        margin: 10% 0 7% 0;
+      }
+
+      #contenedorCuadricula{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr;
+       
+        column-gap: 1px;
+        row-gap: 1px;
+      
+    }
+    #cuadriculaImagen1{
+        height: 50vw;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr;
+    }
+    #cuadriculaImagen2{
+        height: 50vw;
+    }
+    #cuadriculaImagen3{
+        height: 50vw;
+    }
+    #cuadriculaImagen4{
+        height: 50vw;
+    }
+    #cuadriculaImagen5{
+        height: 50vw;
+    }
+    #cuadriculaImagen6{
+        height: 50vw;
+    }
+    #cuadriculaImagen7{
+        height: 50vw;
+    }
+    #cuadriculaImagen8{
+        height: 50vw;
+    }
+    .imagenesCuadricula{
+        height: 70vw;
+        grid-template-rows: 4fr;
+    }
+
+
+        
+    #contenedorServices{
+        grid-template-columns: 5% 75% 10% 5% 5%;
+        grid-template-rows: 10% 41% 3% 3% 39% 3% 1%;
+        margin-bottom: 22%;
+        height: 100vw;
+    }
+
+    #fondoOscuroImg{
+        grid-row: 4/7;
+        grid-column: 1/3;
+          
+    }
+    #tcontenedorTextoServicesArtCuration{
+        grid-template-rows: auto 1fr;
+        margin-bottom: 100;
+        margin-top: 100;
+     
+        }
+
+        #textoServicesArtCuration{
+            margin-left: 0;
+            grid-column: 2/5;
+        grid-row: 2/3;
+        }
+
+    #imagenServices{ 
+    grid-column: 2/6;
+    grid-row: 5/6;
+}
+}
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXX FUENTES XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@font-face {
+
+    font-family: "PFRegalDisplayPro";
+    src: url("../fonts/PFRegalDisplayPro.ttf");
+}
+
+@font-face {
+
+    font-family: "Brandon-Grotesque";
+    src: url("../fonts/Brandon-Grotesque.ttf");
+}
